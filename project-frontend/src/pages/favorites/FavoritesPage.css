@@ -1,0 +1,10 @@
+.favorites-page {
+    margin-top: 90px;
+    padding-left: 240px;
+    padding-right: 240px;
+}
+
+.favorites-page .text{
+    font-size:  3rem;
+    font-weight: bold;
+}

@@ -1,0 +1,99 @@
+.profile-page {
+    margin-top: 90px;
+    padding-left: 240px;
+    padding-right: 240px;
+}
+
+.profile-page .text{
+    font-size:  3rem;
+    font-weight: bold;
+}
+
+.profile-page .change-button {
+    flex:1;
+    
+    height: 38px;
+    max-width: 120px;
+    padding: 0 20px;
+    border-radius: 5px;
+    width: auto;
+}
+
+.profile-page .logOff-button {
+    background-color: rgb(185, 17, 17);
+    color: white;
+}
+
+.profile-page .divider{
+   padding-top: 10px;
+   padding-bottom: 10px;
+}
+
+/* Ciemne tło na całą szerokość i wysokość ekranu */
+.profile-page .modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.5); /* Czarny kolor z 50% przezroczystością */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000; /* Wysoki z-index gwarantuje, że pop-up będzie na samej górze */
+}
+
+/* Białe okienko z formularzem */
+.profile-page .modal-box {
+  background-color: white;
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+  width: 100%;
+  max-width: 400px; /* Okienko nie będzie szersze niż 400px */
+  display: flex;
+  flex-direction: column;
+  gap: 15px; /* Równe odstępy między elementami wewnątrz pop-upu */
+}
+
+/* Stylowanie inputów wewnątrz modala */
+.profile-page .modal-input {
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+/* Układ przycisków na dole */
+.profile-page .modal-actions {
+  display: flex;
+  justify-content: flex-end;
+  gap: 10px;
+}
+
+.profile-page .btn-submit {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.profile-page .btn-delete{
+  background-color: #dc3545;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.profile-page .btn-close {
+  background-color: #dc3545;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+}
